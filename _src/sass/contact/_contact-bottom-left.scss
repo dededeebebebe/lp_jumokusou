@@ -1,0 +1,25 @@
+.contact-bottom-left {
+    width: calc(100% / 2);
+
+    @include media("sp") {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-size: 2.8rem;
+        color: $color-primary;
+
+        @include media("sp") {
+            text-align: center;
+            font-size: 2.2rem;
+        }
+    }
+    &__text {
+        font-size: 1.6rem;
+
+        @include media("sp") {
+            text-align: center;
+        }
+    }
+}

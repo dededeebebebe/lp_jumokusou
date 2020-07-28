@@ -1,0 +1,13 @@
+.footer-bottom {
+    text-align: center;
+
+    &__copyright {
+        font-size: 1.4rem;
+        color: $color-wt01;
+        display: inline-block;
+
+        @include media("sp") {
+            display: block;
+        }
+    }
+}

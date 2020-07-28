@@ -1,0 +1,21 @@
+.footer-upper {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    @include media("sp") {
+        margin-bottom: 10px;
+    }
+
+    &__title {
+        font-size: 2.2rem;
+        color: $color-wt01;
+
+        @include media("sp") {
+            text-align: center;
+        }
+    }
+    &__text {
+        font-size: 1.4rem;
+        color: $color-wt01;
+    }
+}

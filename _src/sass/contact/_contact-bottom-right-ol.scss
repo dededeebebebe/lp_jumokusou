@@ -1,0 +1,7 @@
+.contact-bottom-right-ol {
+    list-style-type: none;
+
+    @include media("sp") {
+        padding: 0;
+    }
+}

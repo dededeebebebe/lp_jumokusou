@@ -1,0 +1,12 @@
+.price-4th {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 70%;
+
+    @include media("sp") {
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+    }
+}

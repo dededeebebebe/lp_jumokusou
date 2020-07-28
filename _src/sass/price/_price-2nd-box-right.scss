@@ -1,0 +1,46 @@
+.price-2nd-box-right {
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 50%;
+
+    @include media("sp") {
+        margin-right: 0;
+        margin-left: 0;
+        width: auto;
+    }
+
+    &__title {
+        font-size: 2.2rem;
+        color: $color-primary;
+        padding: 10px 20px;
+        margin: 15px 0 10px;
+
+        @include media("sp") {
+            font-size: 1.6rem;
+            padding: 0;
+        }
+    }
+    &__title.bg-primary {
+        background-color: $color-primary;
+        color: $color-wt01;
+        padding: 10px 20px;
+    }
+    &__text {
+        font-size: 1.6rem;
+        letter-spacing: 0.05rem;
+        margin-bottom: 10px;
+
+    }
+    &__text.bold {
+        color: $color-primary;
+        font-weight: bold;
+        font-size: 2.2rem;
+
+        @include media("sp") {
+            letter-spacing: 0;
+            margin: 0;
+            padding: 10px 0;
+        }
+
+    }
+}

@@ -1,0 +1,31 @@
+.question-upper-ul {
+
+    @include media("sp") {
+        margin: 0;
+        padding: 0;
+
+    }
+    &__li {
+        font-size: 1.6rem;
+        border-bottom: 1px solid $color-bk03;
+        padding: 10px 25px 10px 10px;
+
+        @include media("sp") {
+            padding: 10px;
+            padding-left: 0;
+            letter-spacing: 0.01em;
+        }
+    }
+    &__icon {
+        font-size: 2.0rem;
+        color: $color-secondary;
+        padding-right: 10px;
+    }
+}
+
+.question-upper-ul:last-of-type {
+
+    @include media("sp") {
+        margin-bottom: 30px;
+    }
+}

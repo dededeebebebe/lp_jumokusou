@@ -1,0 +1,7 @@
+.service-sec {
+    padding: 50px 20px;
+
+    @include media("sp") {
+        padding: 30px 20px;
+    }
+}

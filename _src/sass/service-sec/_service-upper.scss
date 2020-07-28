@@ -1,0 +1,8 @@
+.service-upper {
+    display: flex;
+    margin-bottom: 50px;
+
+    @include media("sp") {
+        margin-bottom: 0;
+    }
+}

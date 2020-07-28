@@ -1,0 +1,12 @@
+.price-2nd-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-wt02;
+    margin-bottom: 40px;
+
+    @include media("sp") {
+        flex-direction: column;
+        align-items: center;
+        background-color: $color-wt01;
+    }
+}

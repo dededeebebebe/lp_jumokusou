@@ -1,0 +1,8 @@
+.comment-sec {
+    background-color: $color-secondary;
+    padding: 40px 20px;
+
+    @include media("sp") {
+        padding: 20px;
+    }
+}

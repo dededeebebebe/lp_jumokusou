@@ -1,0 +1,10 @@
+.contact-upper {
+    display: flex;
+    justify-content: center;
+    background-color: $color-primary;
+
+    @include media("sp") {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+}

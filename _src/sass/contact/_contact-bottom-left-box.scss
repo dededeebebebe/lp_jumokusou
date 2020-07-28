@@ -1,0 +1,14 @@
+.contact-bottom-left-box {
+    display: flex;
+
+    @include media("sp") {
+        justify-content: center;
+    }
+
+    &__img {
+
+    }
+    &__text {
+        font-size: 2.2rem;
+    }
+}

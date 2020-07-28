@@ -1,0 +1,40 @@
+.service-upper-left {
+    width: calc(100% / 2);
+    margin-right: 20px;
+
+    @include media("sp") {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    &__title {
+        font-size: 2.8rem;
+        line-height: 1.5;
+        color: $color-bk01;
+        margin: 0;
+        margin-bottom: 10px;
+        text-align: center;
+
+        @include media("sp") {
+            font-size: 2.2rem;
+        }
+    }
+    &__img {
+        display: none;
+
+        @include media("sp") {
+            display: block;
+            margin: 0 auto;
+            // height: 170px;
+        }
+    }
+    &__text {
+        font-size: 1.6rem;
+        line-height: 1.5;
+        color: $color-bk01;
+    }
+    &__span {
+        color: $color-primary;
+        font-weight: bold;
+    }
+}

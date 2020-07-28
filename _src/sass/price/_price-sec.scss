@@ -1,0 +1,7 @@
+.price-sec {
+    padding: 100px 20px;;
+
+    @include media("sp") {
+        padding: 50px 20px;
+    }
+}

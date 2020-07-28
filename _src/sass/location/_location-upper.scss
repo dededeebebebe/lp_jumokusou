@@ -1,0 +1,32 @@
+.location-upper {
+    background-color: $color-secondary;
+
+    @include media("sp") {
+        // height: 130px;
+    }
+
+    &__title {
+        font-size: 2.8rem;
+        color: $color-wt01;
+        display: flex;
+        align-items: center;
+        line-height: 100px;
+        margin: 0;
+
+        @include media("sp") {
+            line-height: normal;
+            font-size: 2.2rem;
+            padding: 20px;
+        }
+    }
+    &__title:before, &__title:after {
+        border-top: 1px solid $color-wt01;
+        content: "";
+        display: inline;
+        flex-grow: 1;
+
+        @include media("sp") {
+            border-top: none;
+        }
+    }
+}

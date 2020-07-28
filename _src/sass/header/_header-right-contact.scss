@@ -1,0 +1,27 @@
+.header-right-contact {
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid $color-primary;
+
+    @include media('sp') {
+        display: flex;
+        align-items: center;
+        padding: 7px 12px;
+    }
+
+    &__link {
+        font-size: 1.6rem;
+        color: $color-primary;
+
+        @include media("sp") {
+            font-size: 1.4rem;
+        }
+    }
+    &__link:hover {
+        color: $color-wt01;
+        background-color: $color-primary;
+    }
+    &__icon {
+        padding-right: 5px;
+    }
+}

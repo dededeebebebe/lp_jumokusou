@@ -1,0 +1,8 @@
+.message-sec {
+    background-color: $color-secondary;
+    height: 100px;
+
+    @include media("sp") {
+        height: auto;
+    }
+}

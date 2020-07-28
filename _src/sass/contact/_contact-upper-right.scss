@@ -1,0 +1,36 @@
+.contact-upper-right {
+
+    &__text {
+        font-size: 2.8rem;
+        color: $color-primary;
+        font-weight: bold;
+        background-color: $color-wt01;
+        padding: 15px;
+        border: 1px solid $color-primary;
+
+        @include media("tb") {
+            display: flex;
+            align-items: center;
+            text-align: left;
+        }
+
+        @include media("sp") {
+            text-align: center;
+            justify-content: center;
+        }
+    }
+    &__text:hover {
+        display: inline-block;
+        color: $color-wt01;
+        background-color: $color-primary;
+        border: 1px solid $color-wt01;
+    }
+    &__icon {
+        padding-right: 15px;
+    }
+    &__span {
+        @include media("tb") {
+            display: inline-block;
+        }
+    }
+}

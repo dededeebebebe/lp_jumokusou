@@ -1,0 +1,39 @@
+.top-contents {
+    margin: 0 auto;
+    padding: 30px 40px;
+    width: 300px;
+    height: 100%;
+    background-color: #2F2F2F90;
+    writing-mode: vertical-rl;
+
+    @include media("sp") {
+        width: 88%;
+        height: auto;
+        padding: 2px;
+        writing-mode:  horizontal-tb;
+    }
+
+    &__text {
+        font-size: 2.0rem;
+        color: $color-wt01;
+        text-align: right;
+
+        @include media("sp") {
+            font-size: 1.4rem;
+            margin: 10px;
+            text-align: left;
+        }
+    }
+    &__text:first-of-type {
+        text-align: left;
+    }
+    &__title {
+        font-size: 4.0rem;
+        color: $color-wt01;
+
+        @include media("sp") {
+            font-size: 2.2rem;;
+            margin: 10px
+        }
+    }
+}

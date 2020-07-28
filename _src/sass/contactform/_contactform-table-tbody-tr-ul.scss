@@ -1,0 +1,45 @@
+.contactform-table-tbody-tr-ul {
+    display: flex;
+    padding-left: 0;
+
+    &__li {
+        padding-right: 35px;
+
+        @include media("sp") {
+            padding-right: 30px;
+        }
+    }
+    &__radio {
+        display: none;
+    }
+    &__radio + label {
+        padding-left: 20px;
+        position:relative;
+        // margin-right: 20px;
+    }
+    &__radio + label::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 0;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #999;
+        border-radius: 50%;
+    }
+    // &__radio:checked + label {
+    //     color: $color-primary;
+    // }
+    &__radio:checked + label::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 7px;
+        left: 2px;
+        width: 11px;
+        height: 11px;
+        background: $color-secondary;
+        border-radius: 50%;
+    }
+}

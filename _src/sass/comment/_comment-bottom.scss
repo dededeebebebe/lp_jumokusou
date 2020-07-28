@@ -1,0 +1,45 @@
+.comment-bottom {
+    display: flex;
+    position: relative;
+    z-index: 0;
+    @include media("sp") {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    &__text {
+        font-size: 1.6rem;
+        line-height: 1.5;
+        background-color: $color-wt01;
+        position: relative;
+        width: calc(100% / 4);
+        padding: 20px;
+        border-radius: 10px;
+        margin: 0 10px 30px;
+        z-index: auto;
+
+        @include media("sp") {
+            width: 100%;
+            padding: 15px;
+            margin: 0 10px 40px;
+        }
+    }
+    &__text:before {
+        display: block;
+        position: absolute;
+        bottom: -39px;
+        left: 9%;
+        width: 95px;
+        height: 90px;
+        background-image: url(../css/img/triangle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        content: '';
+        z-index: -1;
+
+        // @include media("sp") {
+        //     top: 23%;
+        // }
+}
+}

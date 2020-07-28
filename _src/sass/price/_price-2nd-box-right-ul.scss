@@ -1,0 +1,22 @@
+.price-2nd-box-right-ul {
+    padding-left: 0;
+
+    // @include media("sp") {
+    //     padding-left: 0;
+    // }
+    &__li {
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+
+    @include media("sp") {
+        font-size: 1.4rem;
+    }
+    }
+    &__span {
+        float: right;
+
+        @include media("sp") {
+            margin-left: 35px;
+        }
+    }
+}

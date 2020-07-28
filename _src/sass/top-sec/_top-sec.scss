@@ -1,0 +1,13 @@
+.top-sec {
+    height: 800px;
+    padding-top: 70px;
+    background: url('../css/img/top-img@2x.jpg') center center / cover no-repeat;
+    background-size: cover;
+
+    @include media("sp") {
+        background: url('../css/img/top-img.jpg') center center / cover no-repeat;
+        // background-size: cover;
+        height: 370px;
+        // padding-top:
+    }
+}

@@ -1,0 +1,14 @@
+.top-sub-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+    @include media("tb") {
+        padding: 30px 20px 0;
+    }
+    @include media("sp") {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 20px 0;
+    }
+}

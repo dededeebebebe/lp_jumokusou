@@ -1,0 +1,15 @@
+.flow-bottom-contents-left {
+    text-align: center;
+
+    @include media("sp") {
+        margin-bottom: 20px;
+    }
+
+    &__img {
+        max-width: none;
+
+        @include media("sp") {
+            max-width: 100%;
+        }
+    }
+}

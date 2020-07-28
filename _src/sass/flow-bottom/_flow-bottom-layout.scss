@@ -1,0 +1,16 @@
+.flow-bottom-layout {
+    width: 71%;
+    margin-bottom: 25vw;
+}
+// tb size
+@media screen and (max-width: 989px) and (min-width: 769px) {
+    .flow-bottom-layout {
+        margin-bottom: 35vw;
+    }
+}
+// sp size
+@media screen and (max-width: 768px){
+    .flow-bottom-layout {
+        margin-bottom: 48vw;
+    }
+}

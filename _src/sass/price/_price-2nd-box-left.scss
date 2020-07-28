@@ -1,0 +1,7 @@
+.price-2nd-box-left.order-2 {
+    order: 2;
+
+    @include media("sp") {
+        order: 0;
+    }
+}

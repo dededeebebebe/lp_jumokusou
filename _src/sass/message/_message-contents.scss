@@ -1,0 +1,32 @@
+.message-contents {
+
+    @include media("sp") {
+        display: flex;
+        justify-content: center;
+    }
+    &__title {
+        font-size: 2.8rem;
+        color: $color-wt01;
+        display: flex;
+        align-items: center;
+        line-height: 100px;
+
+        @include media("sp") {
+            line-height: normal;
+            align-self: center;
+            font-size: 2.2rem;
+            padding: 0 20px;
+            text-align: center;
+        }
+    }
+    &__title:before, &__title:after {
+        border-top: 1px solid $color-wt01;
+        content: "";
+        display: inline;
+        flex-grow: 1;
+
+        @include media("sp") {
+            border-top: none;
+        }
+    }
+}

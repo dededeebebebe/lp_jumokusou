@@ -1,0 +1,75 @@
+.flow-upper-upper {
+    background-color: $color-secondary;
+    // height: 400px;
+    height: 30vw;
+
+    @include media("sp") {
+        // height: 200px;
+    }
+
+    &__title {
+        font-size: 2.8rem;
+        color: $color-wt01;
+        display: flex;
+        align-items: center;
+        line-height: 100px;
+
+        @include media("sp") {
+            line-height: normal;
+            padding: 20px 0;
+            font-size: 2.2rem;
+        }
+    }
+    &__title:before, &__title:after {
+        border-top: 1px solid $color-wt01;
+        content: "";
+        display: inline;
+        flex-grow: 1;
+
+        @include media("sp") {
+            border-top: none;
+        }
+    }
+    &__movie-wrap {
+    position: relative;
+    top: -25px;
+    margin: auto;
+    width: 71%;
+    height: 38.33333vw;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @include media("sp") {
+        width: 90%;
+        height: 49vw;
+    }
+    }
+    &__movie-wrap iframe {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+    }
+    &__movie-wrap:after {
+        content: "苦しむ方の声を聴いて導き守る観音様が、\A永代にわたってご先祖さまを供養いたします";
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: -100px;
+        font-size: 2.2rem;
+        color: $color-primary;
+        font-weight: bold;
+        line-height: 1.5;
+        text-align: center;
+        white-space: pre;
+
+        @include media("sp") {
+            font-size: 2rem;
+            line-height: 1.2;
+            text-align: left;
+            bottom: -75px;
+            white-space: normal;
+        }
+    }
+}

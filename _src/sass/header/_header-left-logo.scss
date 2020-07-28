@@ -1,0 +1,19 @@
+.header-left-logo {
+    margin-left: 15px;
+
+    @include media("sp") {
+        margin-left: 0;
+        margin-right: 15px;
+        max-width: 130px;
+    }
+
+    &__link {
+    }
+    &__img {
+        vertical-align: center;
+        transition: 0.1s;
+    }
+    &__img:hover {
+        opacity: 0.7;
+    }
+}

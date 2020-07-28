@@ -1,0 +1,13 @@
+.location-bottom-left {
+    text-align: center;
+
+    @include media("sp") {
+        margin-bottom: 20px;
+    }
+
+    &__map {
+        @include media("sp") {
+            max-width: 100%;
+        }
+    }
+}

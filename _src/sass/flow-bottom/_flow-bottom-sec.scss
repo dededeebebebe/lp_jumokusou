@@ -1,0 +1,7 @@
+.flow-bottom-sec {
+    padding: 50px 20px;
+
+    @include media("sp") {
+        padding-bottom: 20px;
+    }
+}

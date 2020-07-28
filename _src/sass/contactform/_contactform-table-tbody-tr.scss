@@ -1,0 +1,9 @@
+.contactform-table-tbody-tr {
+    text-align: left;
+
+    @include media("sp") {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+}

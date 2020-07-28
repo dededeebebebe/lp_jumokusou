@@ -1,0 +1,10 @@
+.contactform-table-tbody-tr-th {
+
+    @include media("sp") {
+        padding-bottom: 10px;
+    }
+    &__label {
+        font-size: 1.6rem;
+        font-weight: normal;
+    }
+}

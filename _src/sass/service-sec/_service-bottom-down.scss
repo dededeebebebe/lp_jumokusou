@@ -1,0 +1,8 @@
+.service-bottom-down {
+    display: flex;
+    justify-content: space-between;
+
+    @include media("sp") {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,9 @@
+.service-upper-right {
+    width: calc(100% / 2);
+    text-align: right;
+    align-self: center;
+
+    @include media("sp") {
+        display: none;
+    }
+}

@@ -1,0 +1,25 @@
+.contact-bottom-right-dl {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    &__dt {
+        display: inline-block;
+        font-size: 1.6rem;
+        color: $color-wt01;
+        background-color: $color-secondary;
+        padding: 10px 20px;
+        margin-right: 10px;
+        width: 25%;
+        text-align: center;
+
+        @include media("sp") {
+            padding: 10px 15px;
+        }
+    }
+    &__dd {
+        font-size: 1.6rem;
+        margin: 0;
+        width: 75%;
+    }
+}

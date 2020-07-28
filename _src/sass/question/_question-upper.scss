@@ -1,0 +1,16 @@
+.question-upper {
+    display: flex;
+    align-items: center;
+
+    @include media("sp") {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    &__img {
+        @include media("sp") {
+            margin-bottom: 20px;
+            align-self: center;
+        }
+    }
+}

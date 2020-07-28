@@ -1,0 +1,7 @@
+.contact-bottom-right {
+    width: calc(100% / 2);
+
+    @include media("sp") {
+        width: 100%;
+    }
+}

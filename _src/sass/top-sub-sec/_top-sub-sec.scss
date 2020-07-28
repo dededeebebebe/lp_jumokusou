@@ -1,0 +1,8 @@
+.top-sub-sec {
+    background-color: $color-primary;
+    padding: 30px 0;
+
+    @include media("sp") {
+        padding: 30px 30px;
+    }
+}

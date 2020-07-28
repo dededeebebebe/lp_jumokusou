@@ -1,0 +1,44 @@
+.contactform-table-tbody-tr-td {
+    font-size: 1.6rem;
+    max-width: 475px;
+
+    @include media("sp") {
+        max-width: none;
+        width: 100%;
+    }
+
+    &__input {
+        border: 1px solid $color-bk02;
+        border-radius: 3px;
+        width: 350px;
+        height: 40px;
+
+        @include media("sp") {
+            width: 100%;
+        }
+    }
+    &__input.bodies{
+        width: 100px;
+    }
+    &__input::placeholder {
+        color: $color-bk03;
+        font-size: 1.6rem;
+        padding: 0 5px;
+    }
+    &__address01, &__address02 {
+        border: 1px solid $color-bk02;
+        border-radius: 3px;
+        width: 100px;
+        height: 40px;
+    }
+    &__textarea {
+        width: 350px;
+        height: 140px;
+        border: 1px solid $color-bk02;
+        border-radius: 3px;
+
+        @include media("sp") {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.question-middle {
+    text-align: center;
+    padding: 30px 0;
+
+    @include media("sp") {
+        padding: 15px 0;
+    }
+
+    &__img {
+        padding-bottom: 30px;
+    }
+
+    &__title {
+        font-size: 2.8rem;
+        line-height: 1.5;
+        letter-spacing: 0;
+        text-align: center;
+        color: $color-primary;
+        margin: 0 auto;
+
+        @include media("sp") {
+            font-size: 2.2rem;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.price-1st {
+    margin-bottom: 80px;
+
+    @include media("sp") {
+        margin-bottom: 40px;
+    }
+
+    &__title {
+        max-width: 540px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 5px 0;
+        font-size: 2.8rem;
+        line-height: 1.5;
+        border-bottom: 3px solid $color-secondary;
+
+        @include media("sp") {
+            font-size: 2.2rem;
+        }
+    }
+}

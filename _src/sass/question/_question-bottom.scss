@@ -1,0 +1,11 @@
+.question-bottom {
+    display: flex;
+
+    @include media("sp") {
+        flex-direction: column;
+    }
+
+    &__img {
+        align-self: center;
+    }
+}

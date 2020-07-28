@@ -1,0 +1,23 @@
+.top-sub-bottom-contents {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    // vertical-align: middle;
+    width: calc(100% / 3 - 20px);
+    // height: 90px;
+    padding: 15px 0;
+    border: 3px solid $color-wt01;
+    border-radius: 5px;
+
+    @include media("sp") {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        font-size: 2.0rem;
+        color: $color-wt01;
+        line-height: 1.5;
+        margin: 0 auto;
+    }
+}

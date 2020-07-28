@@ -1,0 +1,24 @@
+.break-sp-in {
+    display: none;
+
+    @include media("sp") {
+        display: block;
+    }
+}
+.break-tb-in {
+    display: none;
+
+    @include media("tb") {
+        display: block;
+    }
+}
+.break-sp-out {
+    @include media("sp") {
+        display: none;
+    }
+}
+.span-sp-out {
+    @include media("sp") {
+        display: none;
+    }
+}

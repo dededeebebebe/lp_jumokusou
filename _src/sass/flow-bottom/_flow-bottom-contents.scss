@@ -1,0 +1,9 @@
+.flow-bottom-contents {
+    display: flex;
+    margin-bottom: 30px;
+
+    @include media("sp") {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

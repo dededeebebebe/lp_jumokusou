@@ -1,0 +1,11 @@
+.header-left {
+    display: flex;
+
+    &__text {
+        font-size: 1.4rem;
+
+        @include media("sp") {
+            display: none;
+        }
+    }
+}
